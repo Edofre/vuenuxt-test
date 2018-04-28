@@ -2,11 +2,9 @@
   <section class="section">
     <div class="container">
       <h1 class="title">
-        User
+        Users
       </h1>
-      <p class="subtitle">
-        One
-      </p>
+      <nuxt-child/>
     </div>
   </section>
 </template>

@@ -1,15 +1,8 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        User
-      </h1>
-      <p class="subtitle">
-        {{ test }}
-        {{ $route.params.id }}
-      </p>
-    </div>
-  </section>
+  <p class="subtitle">
+    {{ test }}
+    {{ $route.params.id }}
+  </p>
 </template>
 
 <script>
