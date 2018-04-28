@@ -5,7 +5,9 @@
 </template>
 
 <script>
-
+  export default {
+    transition: 'user'
+  }
 </script>
 
 <style>

@@ -16,6 +16,7 @@
       // Must be a number
       return /^\d+$/.test(params.id)
     },
+    transition: 'user'
   }
 </script>
 

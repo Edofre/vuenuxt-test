@@ -38,6 +38,8 @@ module.exports = {
   css: [
     // node.js module but we specify the pre-processor
     {src: '~assets/scss/main.scss', lang: 'sass'},
+    {src: '~assets/scss/custom.scss', lang: 'scss'},
     {src: 'font-awesome/scss/font-awesome.scss', lang: 'scss'},
+
   ],
 };

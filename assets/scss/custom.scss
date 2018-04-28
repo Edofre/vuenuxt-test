@@ -1,0 +1,18 @@
+//.page-enter-active, .page-leave-active {
+//  transition: opacity .5s;
+//}
+//.page-enter, .page-leave-to {
+//  opacity: 0;
+//}
+
+.user-enter-active, .user-leave-active {
+  transition: opacity .5s;
+}
+.user-enter, .user-leave-active {
+  opacity: 0;
+}
+
+
+.footer-link {
+  margin-left: 15px;
+}
