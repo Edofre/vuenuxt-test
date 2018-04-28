@@ -18,6 +18,12 @@ module.exports = {
   */
   loading: {color: '#3B8070'},
   /*
+  ** Middleware configuration
+  */
+  router: {
+    middleware: 'routes'
+  },
+  /*
   ** Build configuration
   */
   build: {
