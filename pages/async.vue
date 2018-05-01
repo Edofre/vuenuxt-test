@@ -31,6 +31,19 @@
         title: 'Test',
       }
     },
+    // Returning a Promise
+    // asyncData ({ app }, callback) {
+    //   app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
+    //     .then((res) => {
+    //       callback(null, { title: res.data.title })
+    //     })
+    // }
+    // Using async/await
+    // async asyncData ({ app }) {
+    //   let { data } = await app.$axios.get('https://jsonplaceholder.typicode.com/posts/1');
+    //   return { title: data.title }
+    // }
+    // Using a callback
     asyncData ({ app }, callback) {
       app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
         .then((res) => {
