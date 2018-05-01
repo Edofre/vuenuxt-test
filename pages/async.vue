@@ -44,10 +44,21 @@
     //   return { title: data.title }
     // }
     // Using a callback
-    asyncData ({ app }, callback) {
-      app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
+    // asyncData ({ app }, callback) {
+    //   app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
+    //     .then((res) => {
+    //       callback(null, { title: res.data.title })
+    //     })
+    // }
+    // Promise with error
+    asyncData({app, error}) {
+      return app.$axios.get('https://jsonplaceholder.typicode.com/posts/123213')
+      // return app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
         .then((res) => {
-          callback(null, { title: res.data.title })
+          return {title: res.data.title}
+        })
+        .catch((e) => {
+          error({statusCode: 404, message: 'Post not found'})
         })
     }
   }
