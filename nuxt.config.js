@@ -18,6 +18,18 @@ module.exports = {
   */
   loading: {color: '#3B8070'},
   /*
+  ** Modules
+   */
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  /*
+  ** Axios
+   */
+  axios: {
+    // proxyHeaders: false
+  },
+  /*
   ** Middleware configuration
   */
   router: {
