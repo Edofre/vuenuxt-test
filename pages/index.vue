@@ -9,11 +9,9 @@
         Testing Nuxt.js
       </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <nuxt-link class="button--grey" to="/users">Users</nuxt-link>
+        <nuxt-link class="button--green" to="/users">Users</nuxt-link>
         <nuxt-link class="button--grey" to="/async">Async</nuxt-link>
+        <nuxt-link class="button--grey" to="/assets">Assets</nuxt-link>
       </div>
     </div>
   </section>
