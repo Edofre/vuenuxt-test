@@ -8,14 +8,17 @@
 
     <div class="container">
       <div class="notification">
+        <h2>Webpacked &lt;img&gt; tag </h2>
         <img src="~/assets/images/nuxt.png">
       </div>
 
       <div class="notification">
+        <h2>Webpacked css background image </h2>
         <div class="nuxt-logo"></div>
       </div>
 
       <div class="notification">
+        <h2>Static &lt;img&gt; tag </h2>
         <img src="/nuxt.png"/>
       </div>
 
