@@ -11,6 +11,10 @@
         <img src="~/assets/images/nuxt.png">
       </div>
 
+      <div class="notification">
+        <div class="nuxt-logo"></div>
+      </div>
+
     </div>
 
     <footer class="footer">

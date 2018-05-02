@@ -16,3 +16,12 @@
 .footer-link {
   margin-left: 15px;
 }
+
+
+.nuxt-logo {
+  background-image: url('~/assets/images/nuxt.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  min-height: 30px;
+}
