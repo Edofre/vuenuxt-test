@@ -8,7 +8,6 @@
 
     <div class="notifications-container">
 
-
     </div>
 
     <footer class="footer">
