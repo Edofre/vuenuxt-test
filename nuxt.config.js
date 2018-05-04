@@ -30,6 +30,12 @@ module.exports = {
     // proxyHeaders: false
   },
   /*
+  ** Plugins
+  */
+  plugins: [
+    '~/plugins/vue-notifications'
+  ],
+  /*
   ** Middleware configuration
   */
   router: {
@@ -51,7 +57,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: [
+      'vue-notifications'
+    ]
   },
   css: [
     // node.js module but we specify the pre-processor
