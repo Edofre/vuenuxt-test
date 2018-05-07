@@ -52,8 +52,8 @@
     // }
     // Promise with error
     asyncData({app, error}) {
-      return app.$axios.get('https://jsonplaceholder.typicode.com/posts/123213')
-      // return app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
+      // return app.$axios.get('https://jsonplaceholder.typicode.com/posts/123213')
+      return app.$axios.get('https://jsonplaceholder.typicode.com/posts/1')
         .then((res) => {
           return {title: res.data.title}
         })

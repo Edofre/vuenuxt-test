@@ -33,7 +33,6 @@ module.exports = {
   ** Plugins
   */
   plugins: [
-    '~/plugins/vue-notifications'
   ],
   /*
   ** Middleware configuration
@@ -59,7 +58,6 @@ module.exports = {
       }
     },
     vendor: [
-      'vue-notifications'
     ]
   },
   css: [
