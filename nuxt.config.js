@@ -22,6 +22,9 @@ module.exports = {
    */
   modules: [
     '@nuxtjs/axios',
+
+    // Passing options
+    ['~/modules/simple', { token: '123' }]
   ],
   /*
   ** Axios
