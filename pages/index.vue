@@ -12,6 +12,7 @@
         <nuxt-link class="button--green" to="/users">Users</nuxt-link>
         <nuxt-link class="button--grey" to="/async">Async</nuxt-link>
         <nuxt-link class="button--grey" to="/assets">Assets</nuxt-link>
+        <nuxt-link class="button--grey" to="/store">Store</nuxt-link>
       </div>
     </div>
   </section>
