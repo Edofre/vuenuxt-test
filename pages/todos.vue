@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <h1 class="title">
-        Store
+        Todo's
       </h1>
     </div>
 
